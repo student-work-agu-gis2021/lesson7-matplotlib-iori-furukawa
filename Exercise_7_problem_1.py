@@ -19,6 +19,11 @@ import numpy as np
 import pandas as pd
 
 # YOUR CODE HERE 1 to set data
+data=pd.DataFrame()
+x=np.random.rand(1000)
+y=np.random.rand(1000)
+data["x"]=x
+data["y"]=y
 
 # Check your random values
 print(data.head())
